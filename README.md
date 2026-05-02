@@ -1,5 +1,4 @@
-# Project-SmartRoadManagementSystem
-# 🚦 AI 기반 스마트 교통 안전 모니터링 시스템
+# 🚦 AI 기반 스마트 교통 관리 시스템 ( Smart Traffic Management System)
 
 Raspberry Pi 5 환경에서 YOLO 객체 탐지 모델과 OpenCV 영상처리를 활용하여  
 교통 상황을 실시간으로 분석하고, 위험 상황 또는 교통 위반 이벤트를 자동으로 감지하는 시스템입니다.
@@ -11,7 +10,7 @@ Raspberry Pi 5 환경에서 YOLO 객체 탐지 모델과 OpenCV 영상처리를 
 
 ## 📌 프로젝트 개요
 
-### 수행 기간
+### 프로젝트 기간
 2026.03.06 ~ 2026.03.21
 
 ### 프로젝트 목표
