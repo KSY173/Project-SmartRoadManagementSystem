@@ -236,7 +236,11 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 ## 🖥️ 실행 화면 및 시연 내용
 
 ### 횡단보도 무단횡단 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_crosswalk_jaywalking.gif" width="420"> | <img src="./gifs/display_crosswalk_jaywalking.gif" width="420"> |
 
+---
 - 차량 신호등이 빨간불인 상황에서 사람 객체가 횡단보도 ROI에 진입
 - ROI 겹침 비율이 기준값 이상이면 무단횡단으로 판단
 - 보조 웹캠 화면으로 무단횡단자 영역 출력
