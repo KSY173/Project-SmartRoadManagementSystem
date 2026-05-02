@@ -206,6 +206,11 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 
 ## 📷 시스템 구성
 
+<p align="center">
+  <img src="./imgs/system_structure.png" width="850"><br>
+  <b>스마트 도로교통 시스템 구성</b>
+</p>
+
 ### 하드웨어 구성
 
 - Raspberry Pi 5
