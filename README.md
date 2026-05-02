@@ -447,7 +447,6 @@ Project-SmartRoadManagementSystem/
 
 ---
 
-```markdown
 ### 폴더 설명
 
 | 폴더 | 설명 |
