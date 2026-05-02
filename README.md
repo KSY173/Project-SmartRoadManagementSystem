@@ -343,11 +343,6 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 신호등이 위치한 특정 ROI 안에서 감지되는 person 객체는  
 이벤트 판단 과정에서 제외하도록 처리했습니다.
 
-```python
-# 예시 개념
-if person_detected_in_traffic_light_roi:
-    continue
-
 ---
 
 ## 📁 프로젝트 폴더 구조
