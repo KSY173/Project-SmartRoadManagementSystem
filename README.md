@@ -44,7 +44,10 @@ Raspberry Pi 5 환경에서 YOLO 객체 탐지 모델과 OpenCV 영상처리를 
 ---
 
 ## 🧠 시스템 동작 흐름
-
+<p align="center">
+  <img src="./imgs/full_structure.png" width="850"><br>
+  <b>스마트 도로교통 시스템 동작 흐름도</b>
+</p>
 1. 카메라를 통해 실시간 영상 입력
 2. YOLO 모델을 이용해 사람, 차량, 긴급 차량, 낙상 객체 탐지
 3. OpenCV로 설정한 ROI 영역과 객체 바운딩 박스의 겹침 정도 분석
