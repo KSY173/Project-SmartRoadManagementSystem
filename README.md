@@ -311,9 +311,35 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 
 ---
 
+##  💻  디스플레이 및 야간 네오픽셀 LED 사진
+<div>
+  <img src="imgs/real_display.jpg" height="400">
+  <img src="imgs/red_LED.png" style="width:250px; height:400px">
+  <img src="imgs/blue_LED.png" style="width:250px; height:400px">
+</div>
+
+### 1. 디스플레이 (XPT2046 Touch Controller)
+- 라즈베리파이5와 연결하여 UI화면 제어
+
+### 2. 야간 무단횡단 감지
+- 보행자 빨간불 또는 신호상관 없이 횡단보도 외 도로 침범 시 네오픽셀 빨간LED 점등
+
+### 3. 야간 차량침범 감지
+- 보행자 초록불 신호에 차량이 횡단보도 침범 시 네오픽셀 파란LED 점등
+
+---
 ## 💾 데이터베이스 관리
 
 이벤트 발생 시 SQLite DB에 다음 정보를 저장합니다.
+
+### 1. 데이터베이스 테이블
+<img src="imgs/db_table1.png" height="200">
+<img src="imgs/db_table2.png" height="200">
+
+### 2. 데이터베이스 이미지
+<img src="imgs/db_image1.png" height="200">
+<img src="imgs/db_image2.png" height="200">
+
 
 | 항목 | 설명 |
 |---|---|
@@ -334,8 +360,8 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 ### 🚦 신호등을 사람으로 잘못 인식하는 문제
 
 <p>
-<img src="img/신호등트러블슈팅.png" width="300"/>
-<img src="img/신호등트러블슈팅해결.png" width="300"/>
+<img src="imgs/troubleshooting1.png" width="300"/>
+<img src="imgs/troubleshooting2.png" width="300"/>
 </p>
 
 - **문제:** 빨간 사람 학습 후 신호등의 빨간 신호를 person클래스로 오탐  
@@ -344,8 +370,8 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 ### 🚗  car클래스를 밤에 인식하지 못하는 문제
 
 <p>
-<img src="img/car트러블슈팅.png" width="300"/>
-<img src="img/car트러블슈팅해결.png" width="300"/>
+<img src="imgs/troubleshooting3.png" width="300"/>
+<img src="imgs/troubleshooting4.png" width="300"/>
 </p>
 
 - **문제:** 낮과 밤을 묶어 vehicle 클래스를 학습시킨 결과 밤에 vehicle 클래스를 인식하지 못함  
@@ -354,7 +380,7 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 ### 🚶  사람을 인식하지 못하는 문제
 
 <p>
-<img src="img/욜로모델변경, 파일변경.png" width="800"/>
+<img src="imgs/troubleshooting5.png" width="800"/>
 </p>
 
 - **문제:** 카메라 2대를 사용하기 때문에 카메라 속도 유지를 위해 YOLO5n을 사용하자 인식하지 못함  
