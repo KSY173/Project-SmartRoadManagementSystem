@@ -248,39 +248,63 @@ Raspberry Pi 5에서 실시간으로 동작해야 했기 때문에
 - 야간 상황에서는 NeoPixel 빨간색 LED 점등
 
 ### 차도 무단횡단 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_road_jaywalking.gif" width="420"> | <img src="./gifs/display_road_jaywalking.gif" width="420"> |
 
+---
 - 사람이 횡단보도가 아닌 차도 영역으로 이동
 - 신호 상태와 관계없이 도로 ROI 침범 시 이벤트 발생
 - 이벤트 이미지 저장 및 로그 기록
 - 야간에는 빨간색 LED로 위험 상황 표시
 
 ### 불법 주정차 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_illegal_parking.gif" width="420"> | <img src="./gifs/display_illegal_parking.gif" width="420"> |
 
+---
 - 차량이 불법 주정차 구역에 일정 시간 이상 머무름
 - 정차 유지 시간이 기준을 넘으면 이벤트 발생
 - 차량 이미지 저장
 - DB에 발생 시간과 이미지 경로 기록
 
 ### 불법 유턴 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_illegal_uturn.gif" width="420"> | <img src="./gifs/display_illegal_uturn.gif" width="420"> |
 
+---
 - 차량이 유턴 금지 구역 또는 양방향 도로 ROI를 침범
 - 차량 위치 변화와 ROI 조건을 바탕으로 불법 유턴 판단
 - 이벤트 이미지 및 로그 저장
 
 ### 차량 횡단보도 침범 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_vehicle_crosswalk_violation.gif" width="420"> | <img src="./gifs/display_vehicle_crosswalk_violation.gif" width="420"> |
 
+---
 - 차량 신호가 빨간불일 때 차량이 횡단보도 ROI에 진입
 - 횡단보도 침범 이벤트 발생
 - 야간 상황에서는 NeoPixel 파란색 LED 점등
 
 ### 낙상 사고 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_fall_detection.gif" width="420"> | <img src="./gifs/display_fall_detection.gif" width="420"> |
 
+---
 - fall 클래스 감지 시 비상 이벤트 발생
 - 일반 교통 위반 이벤트와 분리하여 처리
 - 디스플레이에 비상 상황 출력
 
 ### 긴급 차량 감지
+| Real Demo | Display Demo |
+|---|---|
+| <img src="./gifs/real_emergency_vehicle_yielding.gif" width="420"> | <img src="./gifs/display_emergency_vehicle_yielding.gif" width="420"> |
 
+---
 - 긴급 차량 또는 경광등 ON 상태 감지
 - 차량 신호등 3색을 모두 점등하여 비상 상황 표시
 - 디스플레이에 긴급 상황 메시지 출력
